@@ -1,0 +1,7 @@
+---
+applications:
+- name: mnist-tairon
+  host: mnist-tairon
+  path: .
+  memory: 256M
+  command: python app.py
